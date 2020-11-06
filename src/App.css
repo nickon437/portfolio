@@ -53,14 +53,14 @@
   font-weight: bold;
 }
 
+.page-content {
+  font-size: 1.2rem;
+}
+
 /** Home **/
 
 #home {
   max-width: min(30rem, calc(100vw - (var(--page-LR-margin) * 2)));
-}
-
-#home > div:nth-child(2) {
-  font-size: 1.2rem;
 }
 
 #home > ul {
