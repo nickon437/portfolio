@@ -23,12 +23,14 @@ code {
     monospace;
 }
 
-.root {
-  --bg-color: rgb(173, 98, 98);
-  --text-color: white;
+html, body, #root, .App {
+  height: 100%;
 }
 
-.App {
+#root {
+  --bg-color: black;
+  --secondary-color: #ffda0a;
+  --text-color: white;
   background: black;
   color: white;
 }
