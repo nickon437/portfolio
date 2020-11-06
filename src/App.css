@@ -30,6 +30,7 @@
 
 #body {
   height: 100%;
+  width: 100%;
 }
 
 .body-separator {
@@ -39,26 +40,26 @@
 }
 
 .body-content {
-  padding: 8%;
-  padding-top: 3rem;
+  margin: var(--page-LR-margin);
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  height: 100%;
+}
+
+.page-title {
+  font-size: 4.5rem;
+  font-weight: bold;
 }
 
 /** Home **/
 
 #home {
-
-}
-
-#home > div:first-child {
-  font-size: 4.5rem;
-  font-weight: bold;
+  max-width: min(30rem, calc(100vw - (var(--page-LR-margin) * 2)));
 }
 
 #home > div:nth-child(2) {
-  width: 30rem;
   font-size: 1.2rem;
 }
 
