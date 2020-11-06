@@ -2,13 +2,15 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div>
-            <div id="title"></div>
-            <div className="minor-separator" />
-            <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contact</li>
+        <div id="header">
+            <div id="name-title">NICK . ON</div>
+            <div className="small-separator" />
+            <ul className="horizontal-list nav">
+                <li>ABOUT ME</li>
+                <li>.</li>
+                <li>PROJECTS</li>
+                <li>.</li>
+                <li>CONTACT</li>
             </ul>
         </div>
     )
