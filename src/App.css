@@ -67,8 +67,3 @@
   font-weight: bold;
   padding-top: 1.5rem;
 }
-
-#home button:hover {
-  color: var(--secondary-color);
-  filter: brightness(100%);
-}
