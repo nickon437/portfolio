@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -6,9 +7,9 @@ const Home = () => {
             <h1>HI,<br/>I'M NICK</h1>
             <div className="page-content">A front-end developer who wants to create the optimal experience with intuitive design and scalable applications.</div>
             <ul className="horizontal-list">
-                <li><button className="link">HIRE ME</button></li>
+                <li><NavLink className="link" to="/contact">HIRE ME</NavLink></li>
                 <li>.</li>
-                <li><button className="link">READ MORE</button></li>
+                <li><NavLink className="link" to="/about">READ MORE</NavLink></li>
             </ul>
         </div>
     )
