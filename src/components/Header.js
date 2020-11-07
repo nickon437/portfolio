@@ -1,19 +1,19 @@
 import React, { useContext } from 'react';
 import { UiContext } from '../context/UiContext';
 import Page from '../resources/enum/Page';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
         <div id="header">
-            <Link id="name-title" className="link" to="/">NICK . ON</Link>
+            <NavLink id="name-title" className="link" to="/">NICK . ON</NavLink>
             <div className="small-separator" />
             <nav className="horizontal-list">
-                <Link className="link" to="/about">ABOUT ME</Link>
+                <NavLink className="link" to="/about">ABOUT ME</NavLink>
                 <span>.</span>
-                <Link className="link" to="/projects">PROJECTS</Link>
+                <NavLink className="link" to="/projects">PROJECTS</NavLink>
                 <span>.</span>
-                <Link className="link" to="/contact">CONTACT</Link>
+                <NavLink className="link" to="/contact">CONTACT</NavLink>
             </nav>
         </div>
     )
