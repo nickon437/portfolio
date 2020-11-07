@@ -1,21 +1,30 @@
 import React from 'react';
-import Page from '../resources/enum/Page';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { Switch, Route, withRouter } from "react-router-dom";
 import Home from './Home';
+import About from './About';
 
-const Body = () => {
-    let page = Page.Home;
-    let content = null;
-
-    if (page === Page.Home) {
-        content = <Home />;
-    } 
+const Body = ({ location }) => {
 
     return (
         <div id="body">
             <div className="body-separator" />
-            {content}
+            <TransitionGroup className="transition-group">
+                <CSSTransition 
+                    key={location.key}
+                    classNames="fade"
+                    timeout={3000}
+                >
+                    <section className="route-section">
+                        <Switch location={location}>
+                            <Route exact path="/" component={Home} />
+                            <Route path="/about" component={About} />
+                        </Switch>
+                    </section>
+                </CSSTransition>
+            </TransitionGroup>
         </div>
     )
 }
 
-export default Body
+export default withRouter(Body);
