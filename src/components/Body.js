@@ -5,6 +5,7 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import Projects from './Projects';
+import ProjectDetail from './ProjectDetail';
 
 const Body = ({ location }) => {
 
@@ -12,7 +13,7 @@ const Body = ({ location }) => {
         <div id="body">
             <div className="body-separator" />
             <TransitionGroup className="transition-group">
-                <CSSTransition 
+                <CSSTransition
                     key={location.key}
                     classNames="fade"
                     timeout={3000}
@@ -22,8 +23,17 @@ const Body = ({ location }) => {
                             <Route exact path="/" component={Home} />
                             <Route path="/about" component={About} />
                             <Route path="/contact" component={Contact} />
-                            <Route path="/projects" component={Projects} />
-                            
+                            {/* <Route path="/projects" component={Projects} />
+                            <Route path="/projects/:projectname" component={ProjectDetail} /> */}
+                            <Route
+                                path="/projects"
+                                render={({ match: { url } }) => (
+                                    <>
+                                        <Route path={`${url}/`} component={Projects} exact />
+                                        <Route path={`${url}/:projectname`} component={ProjectDetail} />
+                                    </>
+                                )}
+                            />
                         </Switch>
                     </section>
                 </CSSTransition>

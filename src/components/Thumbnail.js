@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { NavLink } from "react-router-dom";
+import { NavLink, useRouteMatch } from "react-router-dom";
 
 const Thumbnail = (
     props
@@ -12,9 +12,10 @@ const Thumbnail = (
     // site,
     // source,
 ) => {
-    const projectPath = props.title.replace(/\r|\n|.| /g, '');
+    const projectPath = props.title.replace(/ |\./g, '').toLowerCase();
     const findMoreBtnRef = useRef(null);
     const titleRef = useRef(null);
+    const { url, path } = useRouteMatch();
 
     useEffect(() => {
         findMoreBtnRef.current.onmouseenter = () => {
@@ -26,6 +27,10 @@ const Thumbnail = (
             titleRef.current.style.backgroundColor = '';
             titleRef.current.style.color = 'white';
         }
+
+        // console.log(props.title);
+        // console.log(props.title.replace(/ |\./g, ''));
+        // console.log(projectPath);
     }, [findMoreBtnRef]);
     
     return (
@@ -36,8 +41,17 @@ const Thumbnail = (
                 <NavLink 
                     ref={findMoreBtnRef}
                     className="link"
-                    to={`/projects/${projectPath}`}
-                    projectInfo={props}
+                    // to={`/projects/${projectPath}`}
+                    // to={`${url}/${projectPath}`}
+                    to={{
+                        // pathname: {`${url}/${projectPath}`},
+                        pathname: url + '/' + projectPath,
+                        projectDetails: {props},
+                        // aboutProps: {
+                        //     name: 'qweqwesdasd',
+                        // },
+                    }}
+                    // projectInfo={props}
                 >
                     {'Find more >>'}
                 </NavLink>
