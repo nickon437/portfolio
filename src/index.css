@@ -65,3 +65,24 @@ button, a {
 button.link:hover, a.link:hover{
   color: var(--secondary-color);
 }
+
+button.std-btn, a.std-btn {
+  background-color: var(--secondary-color);
+  color: var(--bg-color);
+  max-width: fit-content;
+  padding: 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  transition: all 0.2s linear;
+}
+
+button.std-btn:hover, a.std-btn:hover {
+  background-color: var(--text-color);
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin: 0;
+}
