@@ -44,8 +44,8 @@
 }
 
 .body-content {
-  margin: var(--page-LR-margin);
-  margin-top: 1.5rem;
+  margin: 1.5rem var(--page-LR-margin);
+  margin-bottom: 0;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -189,4 +189,43 @@ section.route-section {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+/** PROJECTS **/
+
+#projects ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 4rem;
+}
+
+#projects li {
+  border: 1px solid var(--text-color);
+  border-radius: 7px;
+}
+
+#projects .thumbnail {
+  height: 25rem;
+}
+
+#projects .thumbnail-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+}
+
+#projects .thumbnail-description {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  height: 10rem;
+  padding: 1rem;
+  border-bottom-left-radius: 7px; 
+  border-bottom-right-radius: 7px; 
 }
