@@ -1,11 +1,10 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import Icons from '../resources/values/Icons';
 
 const Contact = () => {
     return (
         <div id="contact" className="body-content">
-            <h1>Contact</h1>
+            <h1>CONTACT</h1>
             <ul>
                 <li>
                     <a href="mailto:nick.on437@gmail.com" className="link">

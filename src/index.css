@@ -53,17 +53,12 @@ button, a {
   background-color: transparent;
   border: none;
   font: inherit;
+  font-weight: bold;
   color: inherit;
   padding: 0;
   transition: all 0.3s linear;
   text-decoration: none;
 }
-
-/* button.link { */
-  /* padding: 0; */
-  /* text-decoration: underline;
-  font-style: italic; */
-/* } */
 
 button.link:hover, a.link:hover{
   color: var(--secondary-color);
