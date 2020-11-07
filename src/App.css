@@ -129,3 +129,44 @@ section.route-section {
   font-weight: bold;
   padding-top: 1.5rem;
 }
+
+/** ABOUT **/
+
+#about > .page-content {
+  max-width: min(40rem, calc(100vw - (var(--page-LR-margin) * 2)));
+}
+
+.tech-stack img {
+  height: 2.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.tech-stack img:hover {
+  transform: scale(1.5);
+}
+
+.tech-stack li {
+  --scale: 0;
+  position: relative;
+}
+
+.tech-stack li::after {
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%) scale(var(--scale));
+  transition: 0.2s transform ease-in-out;
+  transform-origin: top center;
+  content: attr(data-name);
+  padding: 0.5rem;
+  width: max-content;
+  max-width: 100vw;
+  background-color: white;
+  color: black;
+  border-radius: 7px;
+  z-index: 1;
+}
+
+.tech-stack li:hover {
+  --scale: 1;
+}

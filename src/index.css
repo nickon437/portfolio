@@ -43,6 +43,9 @@ html, body, #root, .App {
   margin: 0;
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-content: center;
 }
 
 button, a {
@@ -52,7 +55,7 @@ button, a {
   font: inherit;
   color: inherit;
   padding: 0;
-  transition: all 0.2s linear;
+  transition: all 0.3s linear;
   text-decoration: none;
 }
 
@@ -74,15 +77,22 @@ button.std-btn, a.std-btn {
   border-radius: 10px;
   font-weight: bold;
   font-size: 1.3rem;
-  transition: all 0.2s linear;
+  transition: all 0.3s ease-in;
 }
 
 button.std-btn:hover, a.std-btn:hover {
   background-color: var(--text-color);
+  /* box-shadow: 0 0 10px var(--secondary-color); */
 }
 
 h1 {
   font-size: 4.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
 }
