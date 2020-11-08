@@ -7,7 +7,7 @@ const Header = () => {
             <NavLink id="name-title" className="link" to="/portfolio">NICK . ON</NavLink>
             <div className="small-separator" />
             <nav className="horizontal-list">
-                <NavLink className="link" to="/about">ABOUT ME</NavLink>
+                <NavLink className="link" to="/about">ABOUT</NavLink>
                 <span>.</span>
                 <NavLink className="link" to="/projects">PROJECTS</NavLink>
                 <span>.</span>

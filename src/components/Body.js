@@ -14,7 +14,7 @@ const Body = ({ location }) => {
             <div className="body-separator" />
             <TransitionGroup className="transition-group">
                 <CSSTransition
-                    key={location.key}
+                    key={location.pathname}
                     classNames="fade"
                     appear={true}
                     timeout={1100}
