@@ -1,6 +1,4 @@
-import React, { useContext } from 'react';
-import { UiContext } from '../context/UiContext';
-import Page from '../resources/enum/Page';
+import React from 'react';
 import { NavLink } from "react-router-dom";
 
 const Header = () => {

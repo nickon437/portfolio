@@ -3,14 +3,6 @@ import { NavLink, useRouteMatch } from "react-router-dom";
 
 const Thumbnail = (
     props
-    // title, 
-    // snippet,
-    // description,
-    // keyFeatures,
-    // demo,
-    // techStack,
-    // site,
-    // source,
 ) => {
     const findMoreBtnRef = useRef(null);
     const titleRef = useRef(null);
@@ -26,10 +18,6 @@ const Thumbnail = (
             titleRef.current.style.backgroundColor = '';
             titleRef.current.style.color = 'white';
         }
-
-        // console.log(props.title);
-        // console.log(props.title.replace(/ |\./g, ''));
-        // console.log(projectPath);
     }, [findMoreBtnRef]);
     
     return (

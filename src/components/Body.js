@@ -14,7 +14,7 @@ const Body = ({ location }) => {
             <div className="body-separator" />
             <TransitionGroup className="transition-group">
                 <CSSTransition
-                    key={location.key}
+                    key={location.pathname}
                     classNames="fade"
                     appear={true}
                     timeout={1100}
@@ -24,8 +24,6 @@ const Body = ({ location }) => {
                             <Route exact path="/" component={Home} />
                             <Route path="/about" component={About} />
                             <Route path="/contact" component={Contact} />
-                            {/* <Route path="/projects" component={Projects} /> */}
-                            {/* <Route path="/projects/:projectname" component={ProjectDetail} /> */}
                             <Route
                                 path="/projects"
                                 render={({ match: { url } }) => (
