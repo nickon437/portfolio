@@ -45,4 +45,4 @@ const ProjectDetail = (props) => {
     )
 }
 
-export default ProjectDetail
+export default ProjectDetail;

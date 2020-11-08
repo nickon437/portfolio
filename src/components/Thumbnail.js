@@ -1,9 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { NavLink, useRouteMatch } from "react-router-dom";
 
-const Thumbnail = (
-    props
-) => {
+const Thumbnail = (props) => {
     const findMoreBtnRef = useRef(null);
     const titleRef = useRef(null);
     const { url, path } = useRouteMatch();
