@@ -11,14 +11,14 @@ const ProjectDetail = (props) => {
     ));
 
     return (
-        <div className="body-content">
+        <div className="project-detail body-content">
             <h1>{project.title}</h1>
-            <div className="project-detail-snippet">{project.snippet}</div>
-            <div>{project.description}</div>
+            <div className="page-content project-detail-snippet">{project.snippet}</div>
+            <div className="page-content">{project.description}</div>
             <div style={{ display: !project.keyFeatures && "none" }}>
                 <h2>Key features:</h2>
                 <ol>
-                    { project.keyFeatures && project.keyFeatures.map((feature) => (<li>{feature}</li>)) }
+                    {project.keyFeatures && project.keyFeatures.map((feature) => (<li>{feature}</li>))}
                 </ol>
             </div>
             <div>
@@ -28,10 +28,18 @@ const ProjectDetail = (props) => {
             <div style={{ display: !project.demo && "none" }} className="demo">
                 <h2>Demo:</h2>
                 <ul>
-                    { project.demo && project.demo.map((illustration) => (
-                        <li data-name={illustration.name}><img src={illustration.gif} alt={illustration.alt}/></li>
-                    )) }
+                    {project.demo && project.demo.map((illustration) => (
+                        <li data-name={illustration.name}><img src={illustration.gif} alt={illustration.alt} /></li>
+                    ))}
                 </ul>
+            </div>
+            <div className="hflex">
+                <a href={project.site} target="_blank" rel='noreferrer' className="std-btn">
+                    Visit site
+                </a>
+                <a href={project.source} target="_blank" rel='noreferrer' className="std-btn">
+                    Visit source
+                </a>
             </div>
         </div>
     )

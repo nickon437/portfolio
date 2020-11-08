@@ -26,7 +26,7 @@ const About = () => {
         <div id="about" className="body-content">
             <h1>ABOUT ME</h1>
             <div className="page-content">A software engineer who loves to collab and build intuitive, maintainable and scalable applications. I have experienced in working in Agile environment with an emphasis on utilizing best practices to create software that meets requirements and schedule.</div>
-            <a href="../assets/docs/Resume.pdf" className="std-btn" download>DOWNLOAD RESUME</a>
+            <div><a href="../assets/docs/Resume.pdf" className="std-btn" download>DOWNLOAD RESUME</a></div>
             <div>
                 <h2>TECHNOLOGIES I WORK WITH</h2>
                 <ul className="tech-stack horizontal-list">{toolList}</ul>
