@@ -249,21 +249,26 @@ section.route-section {
   color: inherit;
 }
 
-/* #projects .thumbnail-description > a:hover::after {
-  content: "";
-  animation: running-arrows 2s ease-in-out infinite;
-} */
+/** DEMO **/
 
-/* @keyframes running-arrows {
-  0% {
-    content: '';
-  } 25% {
-    content: '>';
-  } 50% {
-    content: '>>';
-  } 75% {
-    content: '>';
-  } 100% {
-    content: '';
+.demo > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  justify-items: center;
+  gap: 1rem;
+}
+
+.demo > ul img {
+  width: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1400px) {
+  .demo > ul {  
+    grid-template-columns: repeat(1, 1fr);
   }
-} */
+}

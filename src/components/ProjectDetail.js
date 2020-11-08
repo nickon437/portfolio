@@ -25,12 +25,12 @@ const ProjectDetail = (props) => {
                 <h2>Technologies:</h2>
                 <ul className="tech-stack horizontal-list">{techStack}</ul>
             </div>
-            <div style={{ display: !project.demo && "none" }}>
+            <div style={{ display: !project.demo && "none" }} className="demo">
                 <h2>Demo:</h2>
-                <ul className="demo-list">
+                <ul>
                     { project.demo && project.demo.map((illustration) => (
-                        <li data-name={illustration.name} className="demo-item"><img src={illustration.gif} alt={illustration.alt}/></li>
-                    ))}
+                        <li data-name={illustration.name}><img src={illustration.gif} alt={illustration.alt}/></li>
+                    )) }
                 </ul>
             </div>
         </div>
