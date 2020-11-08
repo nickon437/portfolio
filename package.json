@@ -14,7 +14,7 @@
     "react-transition-group": "^4.4.1",
     "web-vitals": "^0.2.4"
   },
-  "homepage": "https://nickon437.github.io/portfolio-v2",
+  "homepage": "https://nickon437.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

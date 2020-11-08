@@ -24,6 +24,8 @@
 #header > nav {
   font-size: 1.5rem;
   font-weight: bold;
+  justify-content: center;
+  align-items: center;
 }
 
 #header > nav > a.active {
@@ -253,6 +255,12 @@ section.route-section {
   color: inherit;
 }
 
+@media screen and (max-width: 1000px) {
+  #projects > ul {  
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 /** DEMO **/
 
 .demo > ul {
@@ -286,5 +294,14 @@ section.route-section {
 }
 
 .project-detail ol {
-  padding: 0.75rem;
+  padding: 0 0.75rem;
+  margin: 0;
+}
+
+.project-detail > div:last-child {
+  justify-content: center;
+}
+
+.project-detail > div:last-child > a.std-btn {
+  width: 20rem;
 }

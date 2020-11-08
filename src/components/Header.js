@@ -1,12 +1,10 @@
-import React, { useContext } from 'react';
-import { UiContext } from '../context/UiContext';
-import Page from '../resources/enum/Page';
+import React from 'react';
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
         <div id="header">
-            <NavLink id="name-title" className="link" to="/">NICK . ON</NavLink>
+            <NavLink id="name-title" className="link" to="/portfolio">NICK . ON</NavLink>
             <div className="small-separator" />
             <nav className="horizontal-list">
                 <NavLink className="link" to="/about">ABOUT ME</NavLink>

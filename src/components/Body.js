@@ -1,6 +1,6 @@
 import React from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import { Switch, Route, withRouter, Redirect } from "react-router-dom";
+import { Switch, Route, withRouter } from "react-router-dom";
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
@@ -21,11 +21,9 @@ const Body = ({ location }) => {
                 >
                     <section className="route-section">
                         <Switch location={location}>
-                            <Route exact path="/" component={Home} />
+                            <Route exact path="/portfolio" component={Home} />
                             <Route path="/about" component={About} />
                             <Route path="/contact" component={Contact} />
-                            {/* <Route path="/projects" component={Projects} /> */}
-                            {/* <Route path="/projects/:projectname" component={ProjectDetail} /> */}
                             <Route
                                 path="/projects"
                                 render={({ match: { url } }) => (
@@ -35,12 +33,6 @@ const Body = ({ location }) => {
                                     </>
                                 )}
                             />
-                            <Route path="/portfolio-v2" >
-                                <Redirect to={{ pathname: "/", state: { from: location } }} />
-                            </Route>
-                            <Route path="/portfolio" >
-                                <Redirect to={{ pathname: "/", state: { from: location } }} />
-                            </Route>
                         </Switch>
                     </section>
                 </CSSTransition>
