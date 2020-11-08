@@ -53,26 +53,24 @@ button, a {
   background-color: transparent;
   border: none;
   font: inherit;
+  font-weight: bold;
   color: inherit;
   padding: 0;
   transition: all 0.3s linear;
   text-decoration: none;
 }
 
-/* button.link { */
-  /* padding: 0; */
-  /* text-decoration: underline;
-  font-style: italic; */
-/* } */
-
 button.link:hover, a.link:hover{
   color: var(--secondary-color);
 }
 
 button.std-btn, a.std-btn {
+  display: inline-block;
   background-color: var(--secondary-color);
   color: var(--bg-color);
-  max-width: fit-content;
+  width: 10rem;
+  min-width: fit-content;
+  text-align: center;
   padding: 1rem;
   border-radius: 10px;
   font-weight: bold;
@@ -89,10 +87,17 @@ h1 {
   font-size: 4.5rem;
   font-weight: bold;
   margin: 0;
+  margin-bottom: 1rem;
 }
 
 h2 {
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
+  margin-bottom: 1rem;
+}
+
+.hflex {
+  display: flex;
+  gap: 1rem;
 }
