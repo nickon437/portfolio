@@ -34,10 +34,10 @@ const ProjectDetail = (props) => {
                 </ul>
             </div>
             <div className="hflex">
-                <a href={project.site} target="_blank" rel='noreferrer' className="std-btn">
+                <a href={project.site} target="_blank" rel='noreferrer' className="std-btn" style={{ display: !project.site && "none" }}>
                     Visit site
                 </a>
-                <a href={project.source} target="_blank" rel='noreferrer' className="std-btn">
+                <a href={project.source} target="_blank" rel='noreferrer' className="std-btn" style={{ display: !project.source && "none" }}>
                     Visit source
                 </a>
             </div>

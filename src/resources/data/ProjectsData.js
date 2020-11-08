@@ -31,26 +31,23 @@ class ProjectData {
                 Icons.appEngine,
             ],
             site: 'https://rome.juliabrownschools.com/',
-            source: '',
         },
         {
             id: 'skyvssea',
-            title: 'Sky vs. Sea',
+            title: 'Sky Vs. Sea',
             snippet: 'A board game in which two teams with multiple sets of different skills fight against each other to protect their offspring',
             description: 'This project is for Object-oriented softare design. In Sky vs. Sea, 2 players will play against each other taking the role of Eagle or Shark. '
                 + 'The goal of this game is to terminate the offspring (Baby piece) of the enemy’s team and whoever can achieve it first will be the winner of the game. '
                 + 'The objective a project is creating an application with a large emphasis on design patterns. A number of patterns that we use in this project includes '
                 + 'Abstract Factory Pattern, Prototype Pattern, Command Pattern, Observer Pattern, Proxy Pattern.',
-            demo: [],
             techStack: [
                 Icons.java,
             ],
-            site: '',
             source: 'https://github.com/nickon437/SkyvsSea/',
         },
         {
             id: 'beesvswasps',
-            title: 'Bees vs. Wasps',
+            title: 'Bees Vs. Wasps',
             snippet: 'A game in which player will take the role of a swarm of defender bee to protect the hive and the worker bees from the enemies , and to collect the nectar for the survival of the hive',
             description: 'This is a project for Games and Artificial Intelligent. '
                 + 'In this game, player will take the role of a swarm of defender bees to protect the nest and other workers from the wasps. '
@@ -64,8 +61,6 @@ class ProjectData {
                 Icons.csharp,
                 Icons.anaconda,
             ],
-            site: '',
-            source: '',
         },
     ]
 }

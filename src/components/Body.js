@@ -16,7 +16,8 @@ const Body = ({ location }) => {
                 <CSSTransition
                     key={location.key}
                     classNames="fade"
-                    timeout={3000}
+                    appear={true}
+                    timeout={1100}
                 >
                     <section className="route-section">
                         <Switch location={location}>
