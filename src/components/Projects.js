@@ -7,14 +7,9 @@ const Projects = () => {
     const thumbnailList = ProjectData.DATA.map((thumbnail) => (
         <li>
             <Thumbnail
+                id={thumbnail.id}
                 title={thumbnail.title}
                 snippet={thumbnail.snippet}
-                description={thumbnail.description}
-                keyFeatures={thumbnail.keyFeatures}
-                demo={thumbnail.demo}
-                techStack={thumbnail.techStack}
-                site={thumbnail.site}
-                source={thumbnail.source}
             />
         </li>
     ));

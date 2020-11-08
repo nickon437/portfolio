@@ -12,7 +12,6 @@ const Thumbnail = (
     // site,
     // source,
 ) => {
-    const projectPath = props.title.replace(/ |\./g, '').toLowerCase();
     const findMoreBtnRef = useRef(null);
     const titleRef = useRef(null);
     const { url, path } = useRouteMatch();
@@ -41,17 +40,10 @@ const Thumbnail = (
                 <NavLink 
                     ref={findMoreBtnRef}
                     className="link"
-                    // to={`/projects/${projectPath}`}
-                    // to={`${url}/${projectPath}`}
                     to={{
-                        // pathname: {`${url}/${projectPath}`},
-                        pathname: url + '/' + projectPath,
+                        pathname: url + '/' + props.id,
                         projectDetails: {props},
-                        // aboutProps: {
-                        //     name: 'qweqwesdasd',
-                        // },
                     }}
-                    // projectInfo={props}
                 >
                     {'Find more >>'}
                 </NavLink>
