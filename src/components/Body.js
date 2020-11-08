@@ -21,7 +21,7 @@ const Body = ({ location }) => {
                 >
                     <section className="route-section">
                         <Switch location={location}>
-                            <Route exact path="/portfolio" component={Home} />
+                            <Route exact path="/" component={Home} />
                             <Route path="/about" component={About} />
                             <Route path="/contact" component={Contact} />
                             <Route
