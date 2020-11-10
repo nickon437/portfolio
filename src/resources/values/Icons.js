@@ -17,6 +17,7 @@ import linkedin from '../img/linkedin.png';
 import unity from '../img/unity.png';
 import csharp from '../img/csharp.png';
 import anaconda from '../img/anaconda.png';
+import jQuery from '../img/jQuery.png';
 
 class Icons {
     static yay = { name: 'Yay', logo: yay, alt: 'Yay' };
@@ -38,6 +39,7 @@ class Icons {
     static unity = { name: 'Unity', logo: unity, alt: "Unity"};
     static csharp = { name: 'CSharp', logo: csharp, alt: "CSharp"};
     static anaconda = { name: 'Anaconda', logo: anaconda, alt: "Anaconda"};
+    static jQuery = { name: 'jQuery', logo: jQuery, alt: "jQuery"};
 }
 
 export default Icons;

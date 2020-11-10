@@ -1,5 +1,6 @@
 import Gifs from '../values/Gifs';
 import Icons from '../values/Icons';
+import Images from '../values/Images';
 
 class ProjectData {
     static DATA = [
@@ -31,6 +32,20 @@ class ProjectData {
                 Icons.appEngine,
             ],
             site: 'https://rome.juliabrownschools.com/',
+        },
+        {
+            id: 'sorting-algorithm-demo',
+            title: 'Sorting Algorithm Demo',
+            snippet: 'This fun project provides a quick a demo how different sorting algorithm works, helping other fellow developers on the path of conquering computer science knowledge.',
+            demo: [
+                Images.selectionSort,
+            ],
+            techStack: [
+                Icons.javascript,
+                Icons.jQuery,
+            ],
+            source: 'https://github.com/nickon437/sorting-algorithm-demo',
+            site: 'https://nickon437.github.io/sorting-algorithm-demo/',
         },
         {
             id: 'skyvssea',

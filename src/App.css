@@ -230,6 +230,7 @@ section.route-section {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   transition: all 0.3s ease-in-out;
+  padding: 1rem;
 }
 
 #projects .thumbnail-description {

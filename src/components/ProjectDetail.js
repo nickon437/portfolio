@@ -29,7 +29,7 @@ const ProjectDetail = (props) => {
                 <h2>Demo:</h2>
                 <ul>
                     {project.demo && project.demo.map((illustration) => (
-                        <li data-name={illustration.name}><img src={illustration.gif} alt={illustration.alt} /></li>
+                        <li data-name={illustration.name}><img src={illustration.src} alt={illustration.alt} /></li>
                     ))}
                 </ul>
             </div>
