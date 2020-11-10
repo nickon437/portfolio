@@ -4,6 +4,8 @@ import datatypes from '../gif/datatypes.gif';
 import debug from '../gif/debug.gif';
 import importIO from '../gif/importIO.gif';
 import sidebar from '../gif/sidebar.gif';
+import skyvsseaoverview from '../gif/skyvssea-overview.gif';
+import skyvsseaundo from '../gif/skyvssea-undo.gif';
 
 class Gifs {
     static wasp = { name: 'Wasp', src: wasp, alt: 'Wasp' };
@@ -12,6 +14,8 @@ class Gifs {
     static debug = { name: 'Debug', src: debug, alt: 'Debug' };
     static importIO = { name: 'ImportIO', src: importIO, alt: 'ImportIO' };
     static sidebar = { name: 'Sidebar', src: sidebar, alt: 'Sidebar' };
+    static skyvsseaOverview = { name: 'Overview', src: skyvsseaoverview, alt: 'Overview' };
+    static skyvsseaUndo = { name: 'Undo', src: skyvsseaundo, alt: 'Undo' };
 }
 
 export default Gifs;

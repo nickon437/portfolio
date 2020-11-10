@@ -55,6 +55,12 @@ class ProjectData {
                 + 'The goal of this game is to terminate the offspring (Baby piece) of the enemy’s team and whoever can achieve it first will be the winner of the game. '
                 + 'The objective a project is creating an application with a large emphasis on design patterns. A number of patterns that we use in this project includes '
                 + 'Abstract Factory Pattern, Prototype Pattern, Command Pattern, Observer Pattern, Proxy Pattern.',
+            demo: [
+                Images.skyvsseaLandingPage,
+                Images.skyvsseaCustomizationPage,
+                Gifs.skyvsseaOverview,
+                Gifs.skyvsseaUndo,
+            ],
             techStack: [
                 Icons.java,
             ],
