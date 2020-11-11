@@ -43,6 +43,7 @@ class ProjectData {
             techStack: [
                 Icons.javascript,
                 Icons.jQuery,
+                Icons.sass,
             ],
             source: 'https://github.com/nickon437/sorting-algorithm-demo',
             site: 'https://nickon437.github.io/sorting-algorithm-demo/',

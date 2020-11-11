@@ -18,6 +18,7 @@ import unity from '../img/unity.png';
 import csharp from '../img/csharp.png';
 import anaconda from '../img/anaconda.png';
 import jQuery from '../img/jQuery.png';
+import sass from '../img/sass.png';
 
 class Icons {
     static yay = { name: 'Yay', logo: yay, alt: 'Yay' };
@@ -40,6 +41,7 @@ class Icons {
     static csharp = { name: 'CSharp', logo: csharp, alt: "CSharp"};
     static anaconda = { name: 'Anaconda', logo: anaconda, alt: "Anaconda"};
     static jQuery = { name: 'jQuery', logo: jQuery, alt: "jQuery"};
+    static sass = { name: 'Sass', logo: sass, alt: "Sass"};
 }
 
 export default Icons;

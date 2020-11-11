@@ -8,6 +8,7 @@ const About = () => {
         Icons.sceneBuilder,
         Icons.javascript,
         Icons.jQuery, 
+        Icons.sass,
         Icons.reactJS, 
         Icons.antlr, 
         Icons.junit, 
