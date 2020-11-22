@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.634fe3c1.chunk.css",
-    "main.js": "/portfolio/static/js/main.6f42f6f8.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6f42f6f8.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.021b8a1a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.021b8a1a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b2d7ae98.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b2d7ae98.js.map",
     "static/js/2.cf4076d0.chunk.js": "/portfolio/static/js/2.cf4076d0.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.634fe3c1.chunk.css.map": "/portfolio/static/css/main.634fe3c1.chunk.css.map",
     "static/js/2.cf4076d0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.cf4076d0.chunk.js.LICENSE.txt",
-    "static/media/Resume.b040c6ad.pdf": "/portfolio/static/media/Resume.b040c6ad.pdf",
+    "static/media/Resume.ede5ff67.pdf": "/portfolio/static/media/Resume.ede5ff67.pdf",
     "static/media/anaconda.72c334a2.png": "/portfolio/static/media/anaconda.72c334a2.png",
     "static/media/appEngineLogo.020d470c.png": "/portfolio/static/media/appEngineLogo.020d470c.png",
     "static/media/csharp.ae41b4b1.png": "/portfolio/static/media/csharp.ae41b4b1.png",
@@ -25,13 +25,18 @@
     "static/media/jestLogo.b7cd5a61.png": "/portfolio/static/media/jestLogo.b7cd5a61.png",
     "static/media/junitLogo.a064065d.png": "/portfolio/static/media/junitLogo.a064065d.png",
     "static/media/mySQLLogo2.be5808b8.png": "/portfolio/static/media/mySQLLogo2.be5808b8.png",
+    "static/media/pokeapi.888baca4.png": "/portfolio/static/media/pokeapi.888baca4.png",
+    "static/media/pokedex-1.1bc25316.png": "/portfolio/static/media/pokedex-1.1bc25316.png",
+    "static/media/pokedex-2.ed736fa0.png": "/portfolio/static/media/pokedex-2.ed736fa0.png",
+    "static/media/sass.7cdbf6b5.png": "/portfolio/static/media/sass.7cdbf6b5.png",
     "static/media/sceneBuilderLogo.77d42038.png": "/portfolio/static/media/sceneBuilderLogo.77d42038.png",
-    "static/media/selection-sort.a8cc9e6f.png": "/portfolio/static/media/selection-sort.a8cc9e6f.png",
+    "static/media/selection-sort.3fc203f3.png": "/portfolio/static/media/selection-sort.3fc203f3.png",
     "static/media/sidebar.3ff1ffda.gif": "/portfolio/static/media/sidebar.3ff1ffda.gif",
     "static/media/skyvssea-customization-page.238981fd.png": "/portfolio/static/media/skyvssea-customization-page.238981fd.png",
     "static/media/skyvssea-landing-page.030faa6f.png": "/portfolio/static/media/skyvssea-landing-page.030faa6f.png",
     "static/media/skyvssea-overview.8d86a07e.gif": "/portfolio/static/media/skyvssea-overview.8d86a07e.gif",
     "static/media/skyvssea-undo.8b908bda.gif": "/portfolio/static/media/skyvssea-undo.8b908bda.gif",
+    "static/media/typescript.5415cac2.png": "/portfolio/static/media/typescript.5415cac2.png",
     "static/media/unity.fc43c3d7.png": "/portfolio/static/media/unity.fc43c3d7.png",
     "static/media/wasp.16f62da5.gif": "/portfolio/static/media/wasp.16f62da5.gif",
     "static/media/yay.6cb7d295.png": "/portfolio/static/media/yay.6cb7d295.png"
@@ -40,6 +45,6 @@
     "static/js/runtime-main.b2d7ae98.js",
     "static/js/2.cf4076d0.chunk.js",
     "static/css/main.634fe3c1.chunk.css",
-    "static/js/main.6f42f6f8.chunk.js"
+    "static/js/main.021b8a1a.chunk.js"
   ]
 }
