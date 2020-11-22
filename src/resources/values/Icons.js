@@ -1,24 +1,26 @@
-import yay from '../img/yay.png';
-import jestLogo from '../img/jestLogo.png';
-import javaLogo from '../img/javaLogo.svg';
-import nodeJSLogo from '../img/nodeJSLogo.png';
-import reactLogo from '../img/reactLogo.png';
-import seleniumWebDriverLogo from '../img/seleniumWebDriverLogo.png';
-import jsLogo from '../img/jsLogo.png';
-import sceneBuilderLogo from '../img/sceneBuilderLogo.png';
-import appEngineLogo from '../img/appEngineLogo.png';
-import gitLogo from '../img/gitLogo.png';
-import antlrLogo from '../img/antlrLogo.png';
-import mySQLLogo2 from '../img/mySQLLogo2.png';
-import junitLogo from '../img/junitLogo.png';
-import github from '../img/github.png';
-import email from '../img/email.png';
-import linkedin from '../img/linkedin.png';
-import unity from '../img/unity.png';
-import csharp from '../img/csharp.png';
-import anaconda from '../img/anaconda.png';
-import jQuery from '../img/jQuery.png';
-import sass from '../img/sass.png';
+import yay from '../img/icon/yay.png';
+import jestLogo from '../img/icon/jestLogo.png';
+import javaLogo from '../img/icon/javaLogo.svg';
+import nodeJSLogo from '../img/icon/nodeJSLogo.png';
+import reactLogo from '../img/icon/reactLogo.png';
+import seleniumWebDriverLogo from '../img/icon/seleniumWebDriverLogo.png';
+import jsLogo from '../img/icon/jsLogo.png';
+import sceneBuilderLogo from '../img/icon/sceneBuilderLogo.png';
+import appEngineLogo from '../img/icon/appEngineLogo.png';
+import gitLogo from '../img/icon/gitLogo.png';
+import antlrLogo from '../img/icon/antlrLogo.png';
+import mySQLLogo2 from '../img/icon/mySQLLogo2.png';
+import junitLogo from '../img/icon/junitLogo.png';
+import github from '../img/icon/github.png';
+import email from '../img/icon/email.png';
+import linkedin from '../img/icon/linkedin.png';
+import unity from '../img/icon/unity.png';
+import csharp from '../img/icon/csharp.png';
+import anaconda from '../img/icon/anaconda.png';
+import jQuery from '../img/icon/jQuery.png';
+import sass from '../img/icon/sass.png';
+import pokeapi from '../img/icon/pokeapi.png';
+import typescript from '../img/icon/typescript.png';
 
 class Icons {
     static yay = { name: 'Yay', logo: yay, alt: 'Yay' };
@@ -42,6 +44,8 @@ class Icons {
     static anaconda = { name: 'Anaconda', logo: anaconda, alt: "Anaconda"};
     static jQuery = { name: 'jQuery', logo: jQuery, alt: "jQuery"};
     static sass = { name: 'Sass', logo: sass, alt: "Sass"};
+    static pokeapi = { name: 'PokeAPI', logo: pokeapi, alt: "PokeAPI"};
+    static typescript = { name: 'TypeScript', logo: typescript, alt: "TypeScript"};
 }
 
 export default Icons;

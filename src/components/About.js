@@ -7,6 +7,7 @@ const About = () => {
         Icons.java,
         Icons.sceneBuilder,
         Icons.javascript,
+        Icons.typescript,
         Icons.jQuery, 
         Icons.sass,
         Icons.reactJS, 

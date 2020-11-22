@@ -34,8 +34,26 @@ class ProjectData {
             site: 'https://rome.juliabrownschools.com/',
         },
         {
-            id: 'sorting-algorithm-demo',
-            title: 'Sorting Algorithm Demo',
+            id: 'pokedex',
+            title: 'Pokedex',
+            snippet: 'A simple pokedex to look up pokemon data',
+            description: "This personal project gives me enjoyable time to play with something I love since my childhood. The website was constructed using React and PokeAPI, while the design is inspired by Saepul Nahwan's work on dribbble [dribbble.com/shots/6540871-Pokedex-App].",
+            demo: [
+                Images.pokedex1,
+                Images.pokedex2,
+            ],
+            techStack: [
+                Icons.javascript,
+                Icons.reactJS,
+                Icons.sass,
+                Icons.pokeapi,
+            ],
+            source: 'https://github.com/nickon437/pokedex',
+            site: 'https://nickon437.github.io/pokedex/',
+        },
+        {
+            id: 'sortalgo',
+            title: 'Sortalgo',
             snippet: 'This fun project provides a quick a demo how different sorting algorithm works, helping other fellow developers on the path of conquering computer science knowledge.',
             demo: [
                 Images.selectionSort,
@@ -45,8 +63,8 @@ class ProjectData {
                 Icons.jQuery,
                 Icons.sass,
             ],
-            source: 'https://github.com/nickon437/sorting-algorithm-demo',
-            site: 'https://nickon437.github.io/sorting-algorithm-demo/',
+            source: 'https://github.com/nickon437/sortalgo/',
+            site: 'https://nickon437.github.io/sortalgo/',
         },
         {
             id: 'skyvssea',
