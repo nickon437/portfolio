@@ -25,9 +25,16 @@ code {
 
 html, body, #root, .App {
   height: 100%;
-  background: black;
+}
+
+body {
+  background-image: url('resources/img/stripe-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom 0;
+  background-attachment: fixed;
+  background-color: black;
   color: #ffffff;
-  
 }
 
 @media screen and (max-width: 500px) {
