@@ -31,7 +31,7 @@ const Thumbnail = (props) => {
                         projectDetails: {props},
                     }}
                 >
-                    {'Find more >>'}
+                    {'Read more >>'}
                 </NavLink>
             </div>
         </div>

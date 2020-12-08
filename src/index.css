@@ -16,6 +16,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('resources/img/stripe-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom 0;
+  background-position-x: center;
+  background-attachment: fixed;
+  background-color: black;
+  color: #ffffff;
 }
 
 code {
@@ -25,17 +33,6 @@ code {
 
 html, body, #root, .App {
   height: 100%;
-}
-
-body {
-  background-image: url('resources/img/stripe-bg.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: bottom 0;
-  background-position-x: center;
-  background-attachment: fixed;
-  background-color: black;
-  color: #ffffff;
 }
 
 @media screen and (max-width: 500px) {
@@ -58,7 +55,6 @@ body {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  /* justify-content: center; */
   align-content: center;
 }
 
@@ -74,11 +70,11 @@ button, a {
   text-decoration: none;
 }
 
-button.link:hover, a.link:hover{
+.link:hover{
   color: var(--secondary-color);
 }
 
-button.std-btn, a.std-btn {
+.std-btn {
   display: inline-block;
   background-color: var(--secondary-color);
   color: var(--bg-color);
@@ -92,9 +88,8 @@ button.std-btn, a.std-btn {
   transition: all 0.3s ease-in;
 }
 
-button.std-btn:hover, a.std-btn:hover {
+.std-btn:hover {
   background-color: var(--text-color);
-  /* box-shadow: 0 0 10px var(--secondary-color); */
 }
 
 h1 {

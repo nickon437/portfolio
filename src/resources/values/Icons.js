@@ -19,25 +19,25 @@ import pokeapi from '../img/icon/pokeapi.png';
 import typescript from '../img/icon/typescript.png';
 
 class Icons {
-    static jest = { name: 'Jest', logo: jestLogo, alt: "Jest testing framework" };
-    static java = { name: 'Java', logo: javaLogo, alt: "Java"};
-    static nodeJS = { name: 'NodeJS', logo: nodeJSLogo, alt: "NodeJS"};
-    static reactJS = { name: 'ReactJS', logo: reactLogo, alt: "ReactJS"};
-    static seleniumWebDriver = { name: 'Selenium WebDriver', logo: seleniumWebDriverLogo, alt: "Selenium WebDriver"};
-    static javascript = { name: 'JavaScript', logo: jsLogo, alt: "JavaScript"};
-    static sceneBuilder = { name: 'Scene Builder', logo: sceneBuilderLogo, alt: "Scene Builder"};
-    static appEngine = { name: 'App Engine', logo: appEngineLogo, alt: "App Engine"};
-    static git = { name: 'Git', logo: gitLogo, alt: "Git"};
-    static antlr = { name: 'ANTLR', logo: antlrLogo, alt: "Antlr"};
-    static mySQL = { name: 'MySQL', logo: mySQLLogo2, alt: "MySQL"};
-    static junit = { name: 'JUnit', logo: junitLogo, alt: "JUnit"};
-    static unity = { name: 'Unity', logo: unity, alt: "Unity"};
-    static csharp = { name: 'CSharp', logo: csharp, alt: "CSharp"};
-    static anaconda = { name: 'Anaconda', logo: anaconda, alt: "Anaconda"};
-    static jQuery = { name: 'jQuery', logo: jQuery, alt: "jQuery"};
-    static sass = { name: 'Sass', logo: sass, alt: "Sass"};
-    static pokeapi = { name: 'PokeAPI', logo: pokeapi, alt: "PokeAPI"};
-    static typescript = { name: 'TypeScript', logo: typescript, alt: "TypeScript"};
+    static jest = { name: 'Jest', logo: jestLogo };
+    static java = { name: 'Java', logo: javaLogo };
+    static nodeJS = { name: 'NodeJS', logo: nodeJSLogo };
+    static reactJS = { name: 'ReactJS', logo: reactLogo };
+    static seleniumWebDriver = { name: 'Selenium WebDriver', logo: seleniumWebDriverLogo };
+    static javascript = { name: 'JavaScript', logo: jsLogo };
+    static sceneBuilder = { name: 'Scene Builder', logo: sceneBuilderLogo };
+    static appEngine = { name: 'App Engine', logo: appEngineLogo };
+    static git = { name: 'Git', logo: gitLogo };
+    static antlr = { name: 'ANTLR', logo: antlrLogo };
+    static mySQL = { name: 'MySQL', logo: mySQLLogo2 };
+    static junit = { name: 'JUnit', logo: junitLogo };
+    static unity = { name: 'Unity', logo: unity };
+    static csharp = { name: 'CSharp', logo: csharp };
+    static anaconda = { name: 'Anaconda', logo: anaconda };
+    static jQuery = { name: 'jQuery', logo: jQuery };
+    static sass = { name: 'Sass', logo: sass };
+    static pokeapi = { name: 'PokeAPI', logo: pokeapi };
+    static typescript = { name: 'TypeScript', logo: typescript };
 }
 
 export default Icons;

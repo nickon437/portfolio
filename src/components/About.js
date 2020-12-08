@@ -23,7 +23,7 @@ const About = () => {
 
   const toolList = toolData.map((tool) => (
     <li data-name={tool.name}>
-      <img src={tool.logo} alt={tool.alt} data-tooltip='abx' />
+      <img src={tool.logo} alt={tool.name} />
     </li>
   ));
 
