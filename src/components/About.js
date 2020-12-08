@@ -1,8 +1,6 @@
 import React from 'react';
 import Icons from '../resources/values/Icons';
 import Resume from '../resources/docs/Resume.pdf';
-import Icon from '@mdi/react';
-import { mdiFileAccount } from '@mdi/js';
 
 const About = () => {
   const toolData = [
@@ -40,7 +38,6 @@ const About = () => {
       </div>
       <div>
         <a href={Resume} className='std-btn' download>
-          <Icon path={mdiFileAccount} title='' />
           DOWNLOAD RESUME
         </a>
       </div>
