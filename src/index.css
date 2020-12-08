@@ -32,6 +32,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: bottom 0;
+  background-position-x: center;
   background-attachment: fixed;
   background-color: black;
   color: #ffffff;
