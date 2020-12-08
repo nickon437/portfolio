@@ -1,4 +1,3 @@
-import yay from '../img/icon/yay.png';
 import jestLogo from '../img/icon/jestLogo.png';
 import javaLogo from '../img/icon/javaLogo.svg';
 import nodeJSLogo from '../img/icon/nodeJSLogo.png';
@@ -11,9 +10,6 @@ import gitLogo from '../img/icon/gitLogo.png';
 import antlrLogo from '../img/icon/antlrLogo.png';
 import mySQLLogo2 from '../img/icon/mySQLLogo2.png';
 import junitLogo from '../img/icon/junitLogo.png';
-import github from '../img/icon/github.png';
-import email from '../img/icon/email.png';
-import linkedin from '../img/icon/linkedin.png';
 import unity from '../img/icon/unity.png';
 import csharp from '../img/icon/csharp.png';
 import anaconda from '../img/icon/anaconda.png';
@@ -21,10 +17,8 @@ import jQuery from '../img/icon/jQuery.png';
 import sass from '../img/icon/sass.png';
 import pokeapi from '../img/icon/pokeapi.png';
 import typescript from '../img/icon/typescript.png';
-import youtube from '../img/icon/youtube.png';
 
 class Icons {
-    static yay = { name: 'Yay', logo: yay, alt: 'Yay' };
     static jest = { name: 'Jest', logo: jestLogo, alt: "Jest testing framework" };
     static java = { name: 'Java', logo: javaLogo, alt: "Java"};
     static nodeJS = { name: 'NodeJS', logo: nodeJSLogo, alt: "NodeJS"};
@@ -37,9 +31,6 @@ class Icons {
     static antlr = { name: 'ANTLR', logo: antlrLogo, alt: "Antlr"};
     static mySQL = { name: 'MySQL', logo: mySQLLogo2, alt: "MySQL"};
     static junit = { name: 'JUnit', logo: junitLogo, alt: "JUnit"};
-    static github = { name: 'GitHub', logo: github, alt: "GitHub"};
-    static email = { name: 'Email', logo: email, alt: "Email"};
-    static linkedin = { name: 'Linkedin', logo: linkedin, alt: "Linkedin"};
     static unity = { name: 'Unity', logo: unity, alt: "Unity"};
     static csharp = { name: 'CSharp', logo: csharp, alt: "CSharp"};
     static anaconda = { name: 'Anaconda', logo: anaconda, alt: "Anaconda"};
@@ -47,7 +38,6 @@ class Icons {
     static sass = { name: 'Sass', logo: sass, alt: "Sass"};
     static pokeapi = { name: 'PokeAPI', logo: pokeapi, alt: "PokeAPI"};
     static typescript = { name: 'TypeScript', logo: typescript, alt: "TypeScript"};
-    static youtube = { name: 'YouTube', logo: youtube, alt: "YouTube"};
 }
 
 export default Icons;
