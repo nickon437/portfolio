@@ -39,8 +39,16 @@ class ProjectData {
             snippet: 'A simple pokedex to look up pokemon data',
             description: "This personal project gives me enjoyable time to play with something I love since my childhood. The website was constructed using React and PokeAPI, while the design is inspired by Saepul Nahwan's work on dribbble [dribbble.com/shots/6540871-Pokedex-App].",
             demo: [
-                Images.pokedex1,
-                Images.pokedex2,
+                Images.pokedexGeneration,
+                Images.pokedexGrid,
+                Images.pokedexDetail,
+                Images.pokedexDetailEvolution,
+                Images.pokedexDetailList,
+                Images.pokedexSearch,
+                Images.pokedexMbGeneration,
+                Images.pokedexMbGrid,
+                Images.pokedexMbDetail,
+                Images.pokedexMbDetail2,
             ],
             techStack: [
                 Icons.javascript,
