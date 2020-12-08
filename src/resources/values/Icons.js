@@ -21,6 +21,7 @@ import jQuery from '../img/icon/jQuery.png';
 import sass from '../img/icon/sass.png';
 import pokeapi from '../img/icon/pokeapi.png';
 import typescript from '../img/icon/typescript.png';
+import youtube from '../img/icon/youtube.png';
 
 class Icons {
     static yay = { name: 'Yay', logo: yay, alt: 'Yay' };
@@ -46,6 +47,7 @@ class Icons {
     static sass = { name: 'Sass', logo: sass, alt: "Sass"};
     static pokeapi = { name: 'PokeAPI', logo: pokeapi, alt: "PokeAPI"};
     static typescript = { name: 'TypeScript', logo: typescript, alt: "TypeScript"};
+    static youtube = { name: 'YouTube', logo: youtube, alt: "YouTube"};
 }
 
 export default Icons;

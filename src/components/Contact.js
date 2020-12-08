@@ -24,6 +24,12 @@ const Contact = () => {
                         github.com/nickon437
                     </a>
                 </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCNOa-ps4w-iNuNGa6Fpll_g" className="link">
+                        <img src={Icons.youtube.logo} alt={Icons.youtube.alt} />
+                        youtube.com/channel
+                    </a>
+                </li>
             </ul>
         </div>
     )
