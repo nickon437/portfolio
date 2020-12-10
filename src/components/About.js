@@ -16,6 +16,7 @@ const About = () => {
     Icons.jest,
     Icons.seleniumWebDriver,
     Icons.mySQL,
+    Icons.mongodb,
     Icons.appEngine,
     Icons.git,
     Icons.unity,
