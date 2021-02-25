@@ -11,6 +11,8 @@ const About = () => {
     Icons.jQuery,
     Icons.sass,
     Icons.reactJS,
+    Icons.redux,
+    Icons.nodeJS,
     Icons.antlr,
     Icons.junit,
     Icons.jest,

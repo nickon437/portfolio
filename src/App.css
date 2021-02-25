@@ -176,6 +176,10 @@ section.route-section {
   --scale: 1;
 }
 
+.tech-stack img[name=Express] {
+  filter: invert(100%)
+}
+
 /** CONTACT **/
 
 #contact ul {

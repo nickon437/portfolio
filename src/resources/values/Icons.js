@@ -18,6 +18,11 @@ import sass from '../img/icon/sass.png';
 import pokeapi from '../img/icon/pokeapi.png';
 import typescript from '../img/icon/typescript.png';
 import mongodb from '../img/icon/mongodb.png';
+import express from '../img/icon/express.png';
+import redux from '../img/icon/redux.png';
+import jwt from '../img/icon/jwt.png';
+import paypal from '../img/icon/paypal.png';
+import reactBootstrap from '../img/icon/reactBootstrap.png';
 
 class Icons {
   static jest = { name: 'Jest', logo: jestLogo };
@@ -43,6 +48,11 @@ class Icons {
   static pokeapi = { name: 'PokeAPI', logo: pokeapi };
   static typescript = { name: 'TypeScript', logo: typescript };
   static mongodb = { name: 'MongoDB', logo: mongodb };
+  static express = { name: 'Express', logo: express };
+  static redux = { name: 'Redux', logo: redux };
+  static jwt = { name: 'JWT', logo: jwt };
+  static paypal = { name: 'PayPal', logo: paypal };
+  static reactBootstrap = { name: 'ReactBootstrap', logo: reactBootstrap };
 }
 
 export default Icons;

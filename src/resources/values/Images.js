@@ -15,6 +15,14 @@ import pathalgo1 from '../img/screenshot/pathalgo1.png';
 import pathalgo2 from '../img/screenshot/pathalgo2.png';
 import pathalgo3 from '../img/screenshot/pathalgo3.png';
 import pathalgo4 from '../img/screenshot/pathalgo4.png';
+import shopee1 from '../img/screenshot/shopee1.png';
+import shopee2 from '../img/screenshot/shopee2.png';
+import shopee3 from '../img/screenshot/shopee3.png';
+import shopee4 from '../img/screenshot/shopee4.png';
+import shopee5 from '../img/screenshot/shopee5.png';
+import shopee6 from '../img/screenshot/shopee6.png';
+import shopee7 from '../img/screenshot/shopee7.png';
+import shopee8 from '../img/screenshot/shopee8.png';
 
 class Images {
     static selectionSort = { name: 'Selection Sort', src: selectionSort };
@@ -34,6 +42,14 @@ class Images {
     static pathalgo2 = { name: 'Pathalgo', src: pathalgo2 };
     static pathalgo3 = { name: 'Pathalgo', src: pathalgo3 };
     static pathalgo4 = { name: 'Pathalgo', src: pathalgo4 };
+    static shopee1 = { name: 'Shopee', src: shopee1 };
+    static shopee2 = { name: 'Shopee', src: shopee2 };
+    static shopee3 = { name: 'Shopee', src: shopee3 };
+    static shopee4 = { name: 'Shopee', src: shopee4 };
+    static shopee5 = { name: 'Shopee', src: shopee5 };
+    static shopee6 = { name: 'Shopee', src: shopee6 };
+    static shopee7 = { name: 'Shopee', src: shopee7 };
+    static shopee8 = { name: 'Shopee', src: shopee8 };
 }
 
 export default Images;

@@ -26,6 +26,38 @@ class ProjectData {
       source: 'https://github.com/nickon437/pokedex',
       site: 'https://nickon437.github.io/pokedex/',
     },
+    { 
+      id: 'shopee',
+      title: 'Shopee',
+      snippet: 'An eCommerce Platform',
+      description: "This project is based on Brad's MERN eCommerce course.",
+      keyFeatures: [
+        'Full featured shopping cart',
+        'Product reviews and ratings',
+        'Product search feature',
+        'User profile with orders',
+        'Admin product management',
+        'Admin user management',
+        'Admin order details page',
+        'Mark orders as delivered option',
+        'Checkout process (shipping, payment method, etc)',
+        'PayPal / credit card integration',
+        'Database seeder (products & users)',
+      ],
+      demo: [
+        Images.shopee1,
+        Images.shopee2,
+        Images.shopee3,
+        Images.shopee4,
+        Images.shopee5,
+        Images.shopee6,
+        Images.shopee7,
+        Images.shopee8,
+      ],
+      techStack: [Icons.javascript, Icons.reactJS, Icons.express, Icons.mongodb, Icons.nodeJS, Icons.reactBootstrap, Icons.jwt, Icons.paypal],
+      source: 'https://github.com/nickon437/shopee',
+      site: 'https://proshopapp.herokuapp.com/',
+    },
     {
       id: 'pathalgo',
       title: 'Pathalgo',
@@ -55,7 +87,7 @@ class ProjectData {
       snippet:
         'A simple and realistic IDE platform that teaches young children the fundamentals of computer science',
       description:
-        "This is a collaborative capstone project between RMIT University, L'enfant Corporation and Montessori Education that our team worked on in our final year of Master Degree." +
+        "This is a collaborative capstone project between RMIT University, L'Enfant Corporation and Montessori Education that our team worked on in our final year of Master Degree." +
         'The aim of project is creating a simple yet realistic IDE platform to provide children from 6 to 9 years old a basic understanding of computer science.',
       keyFeatures: [
         'executable programming logic',

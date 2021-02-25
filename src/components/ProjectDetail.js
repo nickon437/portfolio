@@ -8,7 +8,7 @@ const ProjectDetail = (props) => {
 
   const techStack = project.techStack.map((tech) => (
     <li data-name={tech.name}>
-      <img src={tech.logo} alt={tech.name} />
+      <img src={tech.logo} alt={tech.name} name={tech.name} />
     </li>
   ));
 
