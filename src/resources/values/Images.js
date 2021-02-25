@@ -11,6 +11,10 @@ import pokedexMbGeneration from '../img/screenshot/pokedex-mb-generation.png';
 import pokedexMbGrid from '../img/screenshot/pokedex-mb-grid.png';
 import pokedexMbDetail from '../img/screenshot/pokedex-mb-detail.png';
 import pokedexMbDetail2 from '../img/screenshot/pokedex-mb-detail-2.png';
+import pathalgo1 from '../img/screenshot/pathalgo1.png';
+import pathalgo2 from '../img/screenshot/pathalgo2.png';
+import pathalgo3 from '../img/screenshot/pathalgo3.png';
+import pathalgo4 from '../img/screenshot/pathalgo4.png';
 
 class Images {
     static selectionSort = { name: 'Selection Sort', src: selectionSort };
@@ -26,6 +30,10 @@ class Images {
     static pokedexMbGrid = { name: 'Pokedex Grid - Mobile', src: pokedexMbGrid };
     static pokedexMbDetail = { name: 'Pokedex Detail - Mobile', src: pokedexMbDetail };
     static pokedexMbDetail2 = { name: 'Pokedex Detail 2 - Mobile', src: pokedexMbDetail2 };
+    static pathalgo1 = { name: 'Pathalgo', src: pathalgo1 };
+    static pathalgo2 = { name: 'Pathalgo', src: pathalgo2 };
+    static pathalgo3 = { name: 'Pathalgo', src: pathalgo3 };
+    static pathalgo4 = { name: 'Pathalgo', src: pathalgo4 };
 }
 
 export default Images;
